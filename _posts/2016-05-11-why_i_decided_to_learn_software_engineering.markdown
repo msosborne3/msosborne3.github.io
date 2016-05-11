@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  Why I decided to learn Software Engineering
-date:   2016-05-11 19:51:39 +0000
+date:   2016-05-11 15:51:39 -0400
 ---
 
 
-****What do you want to be when you grow up?****
+**What do you want to be when you grow up?**
 
 Every child has their own answer to this question, but, when I was a kid, my answer wasn't "A Software Engineer!" Most kids, myself included, aspire to be Doctors, Lawyers, Popstars, and Princesses. It wasn't until I was about to graduate high school that I truly considered Computer Science, and it wasn't until my first semester of college that I actually decided that this is what I want to do.
 
