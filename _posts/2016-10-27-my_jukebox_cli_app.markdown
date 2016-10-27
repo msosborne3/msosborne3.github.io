@@ -4,13 +4,13 @@ title:  " My Jukebox CLI app"
 date:   2016-10-27 02:39:44 -0400
 ---
 
-## Today I finally finished my CLI gem!
+# Today I finally finished my CLI gem!
 These past few months of balancing Learn, school, and a loss in the family have been pretty hard for me, so it feels incredible to finally make progress on something I love. I didn't really how much I missed coding until today when I buckled down on this gem and finished with a gem I am super happy about! So now let me tell you about it!
 
-## The idea
+# The idea
 It took me forever to come up with my idea for my gem. There are so many things out there that I could make a gem for, so how do I decide?! Finally I decided that something that I think would be useful is a gem that shows upcoming concerts. Usually concerts are pretty easy to miss and I often find myself hearing about a concert that I would have loved to have attended had I known about it. That's where my gem comes in! 
 
-## How it works
+# How it works
 1. Type "jukebox" and a list of concerts in Memphis will automatically be displayed.
 2. Type the number associated with the concert you'd like more information on.
 3. Type "list" to return to the list of upcoming concerts.
@@ -18,7 +18,7 @@ It took me forever to come up with my idea for my gem. There are so many things 
 
 If you enter either a number not on the list or a word other than "list" or "exit," an error will appear and you can enter a new command.
 
-## Behind the scenes
+# Behind the scenes
 One of the things that stalled me in starting to develop this gem was how intimidated this project made me. I was very excited for it, but I had no idea where to start! Luckily, lots of great tutorials were there to help!
 
 There were many issues along the way, but they all proved possible to tackle. My biggest issue was figuring out where to require everything. I ended up using my bin/jukebox file to call a new instance of the Jukebox::CLI and that was all!
