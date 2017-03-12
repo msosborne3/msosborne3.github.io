@@ -16,16 +16,6 @@ p {
 p a {
   text-decoration: underline;
 }
-.gif {
-  position: relative;
-  left: -50%;
-  text-align: left;
-  display: block;
-}
-.gif img {
-    position: relative;
-    left: 80%;
-}
 h1,
 h2,
 h3,
