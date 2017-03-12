@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Setting Up Paperclip + AWS S3 + Heroku"
-date:   2017-03-12 05:18:35 +0000
+date:   2017-03-12 00:18:36 -0500
 ---
 
 
-This past week I have been working on deploying my Rails app, Venture, I ran into several issues. However, DEFINITELY the most frustrating thing was when I discovered that none of the photos uploaded with the paperclip gem were persisting! I was so confused as to how it could work perfectly in development, but fail so miserably in production. I guess I was forgetting that the application is configured differently in production than it is in development. 
+This past week I have been working on deploying my Rails app, Venture, I ran into several issues. However, **definitely** the most frustrating thing was when I discovered that none of the photos uploaded with the paperclip gem were persisting! I was so confused as to how it could work perfectly in development, but fail so miserably in production. I guess I was forgetting that the application is configured differently in production than it is in development. 
 
 ![](http://i.giphy.com/zPOErRpLtHWbm.gif)
 
