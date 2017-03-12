@@ -17,7 +17,15 @@ p a {
   text-decoration: underline;
 }
 .gif {
-  text-align: center;
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.gif img {
+  position: relative;
+  left: 50%;
 }
 h1,
 h2,
