@@ -7,9 +7,7 @@ date:   2017-03-12 00:18:36 -0500
 
 This past week I have been working on deploying my Rails app, Venture, I ran into several issues. However, **definitely** the most frustrating thing was when I discovered that none of the photos uploaded with the paperclip gem were persisting! I was so confused as to how it could work perfectly in development, but fail so miserably in production. I guess I was forgetting that the application is configured differently in production than it is in development. 
 
-<div class="gif">
-	<img src="http://i.giphy.com/zPOErRpLtHWbm.gif">
-</div>
+![](http://i.giphy.com/zPOErRpLtHWbm.gif)
 
 Finally, thanks to help from many, many Stack Overflow posts, I was able to figure out how to get it to work. Here’s how:
 
@@ -66,7 +64,4 @@ You may need to restart Terminal after this step.
 
 Run `heroku open` and try adding an image to your application. Hopefully it works and you can give yourself a pat on the back! If everything doesn’t work as expected, I would recommend checking the heroku logs to see what went wrong. You can do this by running `heroku logs --tail` in the terminal.
 
-<div class="gif">
-	<img src="http://i.giphy.com/O1ibc4PRxKwrS.gif">
-</div>
-
+![](http://i.giphy.com/O1ibc4PRxKwrS.gif)
