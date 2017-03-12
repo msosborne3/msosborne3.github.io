@@ -17,15 +17,14 @@ p a {
   text-decoration: underline;
 }
 .gif {
-  float: right;
-
   position: relative;
-  left: -50%; /* or right 50% */
+  left: -50%;
   text-align: left;
+  display: block;
 }
 .gif img {
-  position: relative;
-  left: 50%;
+    position: relative;
+    left: 80%;
 }
 h1,
 h2,
